@@ -3,6 +3,6 @@ locals{
 }
 
 resource "aws_s3_bucket" "tf_s3_bucket" {
-  region = var.region
+  bucket = var.bucket_name
 }
 
